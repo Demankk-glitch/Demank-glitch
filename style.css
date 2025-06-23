@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0f0f0f;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -15,14 +15,12 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  animation: fadeIn 1.5s ease-in-out;
 }
 
 h1 {
   font-size: 3em;
   color: #00ff99;
   margin-bottom: 10px;
-  text-shadow: 0 0 5px #00ffcc;
 }
 
 p {
@@ -42,16 +40,4 @@ a {
 
 a:hover {
   color: #ffffff;
-}
-
-/* Animasi masuk */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
